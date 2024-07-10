@@ -3,8 +3,9 @@ from PIL import Image
 import numpy as np
 
 st.title("Currency Converter")
-img = Image.open("istockphoto.jpeg")
-st.image(img)
+img = Image.open("cur.jpeg")
+st.image(img) 
+
 
 currency = ["NGN", "USD", "JPY", "CAD","GBP"]
 
